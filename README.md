@@ -1,2 +1,2 @@
-Autism Aims /
-Next js | Framer Motion
+**Autism Aims**
+>Next js | Framer Motion
