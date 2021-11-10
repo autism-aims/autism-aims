@@ -21,11 +21,11 @@ export default function Why_Choose_Us() {
 				<div>
 					<h2>Testimonials</h2>
 					<div>
-						<p>Oscar is truly remarkable, always prepared, and lending ideas to improve a student's independence. - Proud GN Parent</p>
-						<p>I would start a petition to keep Oscar as our therapist! - Behavioral Consultant in Plainview</p>
-						<p>Our son often stopped in the hallway to smile and wave at peers and staff. You have been an essential part of our son's life and our family’s lives over the many years since we know each other. - Proud GN Parent</p>
-						<p>Oscar is always calm and collected among many problems behavior he encounters a day - Proud GN Parent</p>
-						<p>Oscar is a reliable therapist who works diligently to get results while maintaining a client-first approach - BCBA in Port Washington School District </p>
+						<p>&quot;Oscar is truly remarkable, always prepared, and lending ideas to improve a student&apos;s independence.&quot; - Proud GN Parent</p>
+						<p>&quot;I would start a petition to keep Oscar as our therapist!&quot; - Behavioral Consultant in Plainview</p>
+						<p>&quot;Our son often stopped in the hallway to smile and wave at peers and staff. You have been an essential part of our son&apos;s life and our family’s lives over the many years since we know each other.&quot; - Proud GN Parent</p>
+						<p>&quot;Oscar is always calm and collected among many problems behavior he encounters a day&quot; - Proud GN Parent</p>
+						<p>&quot;Oscar is a reliable therapist who works diligently to get results while maintaining a client-first approach&quot; - BCBA in Port Washington School District </p>
 					</div>
 				</div>	
 			</main>
