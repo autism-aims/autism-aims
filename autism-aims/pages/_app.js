@@ -1,10 +1,10 @@
 import "../styles/globals.css";
-import Link from "next/link";
+import Navbar from "../components/navbar";
 
 function MyApp({ Component, pageProps }) {
 	return (
 		<>
-		{/* navbar */}
+		<Navbar/>
 			<Component {...pageProps} />
 		</>
 	);

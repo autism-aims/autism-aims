@@ -11,7 +11,7 @@ export default function Home() {
 				<meta
 					name="description"
 					content="At Autism Aims, we provide Applied Behavior Analysis (ABA) for individuals with Autism Spectrum Disorder (ASD). 
-          Our services are centered around a client-first philosophy and Acceptance and Commitment Therapy (ACT)."
+          			Our services are centered around a client-first philosophy and Acceptance and Commitment Therapy (ACT)."
 				/>
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<link rel="icon" href="/favicon.ico" />
@@ -52,7 +52,7 @@ export default function Home() {
 						className={styles.card}
 					>
 						<h2>Deploy &rarr;</h2>
-						<p>
+						<p> 
 							Instantly deploy your Next.js site to a public URL with Vercel.
 						</p>
 					</a>
