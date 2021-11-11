@@ -2,7 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
-
 export default function Home() {
 	return (
 		<div className={styles.container}>
@@ -14,63 +13,36 @@ export default function Home() {
           			Our services are centered around a client-first philosophy and Acceptance and Commitment Therapy (ACT)."
 				/>
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<main className={styles.main}>
-				<h1 className={styles.title}>
-					Welcome to <a href="https://nextjs.org">Next.js!</a>
-				</h1>
-
-			
-				<p className={styles.description}>
-					Get started by editing{" "}
-					<code className={styles.code}>pages/index.js</code>
-				</p>
-
-				<div className={styles.grid}>
-					<a href="https://nextjs.org/docs" className={styles.card}>
-						<h2>Documentation &rarr;</h2>
-						<p>Find in-depth information about Next.js features and API.</p>
-					</a>
-
-					<a href="https://nextjs.org/learn" className={styles.card}>
-						<h2>Learn &rarr;</h2>
-						<p>Learn about Next.js in an interactive course with quizzes!</p>
-					</a>
-
-					<a
-						href="https://github.com/vercel/next.js/tree/master/examples"
-						className={styles.card}
-					>
-						<h2>Examples &rarr;</h2>
-						<p>Discover and deploy boilerplate example Next.js projects.</p>
-					</a>
-
-					<a
-						href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-						className={styles.card}
-					>
-						<h2>Deploy &rarr;</h2>
-						<p> 
-							Instantly deploy your Next.js site to a public URL with Vercel.
-						</p>
-					</a>
+			<main className="text-center">
+				<div>
+					<img src="https://via.placeholder.com/1920x450.jpg?text=Placeholder+Hero+Image" />
+					<h1 className="mt-4">Autism Aims</h1>
+					<h2>
+						An Aim Rooted in Purpose, Advocacy and Results
+					</h2>
+				</div>
+				<div className="mt-4">
+					<p>
+						At Autism Aims, we aim to extinguish problematic behaviors that may
+						impede the progress of a client’s social, educational, and
+						career-oriented goals and needs. Our staff is well versed in applied
+						behavior analysis and will help create an individual’s behavior plan
+						specific to their goals and needs. Autism Aims works to dismantle
+						stigma and barriers to ensure our clients build a strong sense of
+						self-esteem, identity, dignity, and independence and use their
+						skills and strengths as contributing and valuable members of
+						society.
+					</p>
+				</div>
+				<div className="flex justify-center gap-2 mt-4">
+					<img src="https://via.placeholder.com/250.jpg?text=Placeholder+Gallery" />
+					<img src="https://via.placeholder.com/250.jpg?text=Placeholder+Gallery" />
+					<img src="https://via.placeholder.com/250.jpg?text=Placeholder+Gallery" />
+					<img src="https://via.placeholder.com/250.jpg?text=Placeholder+Gallery" />
 				</div>
 			</main>
-
-			<footer className={styles.footer}>
-				<a
-					href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					Powered by{" "}
-					<span className={styles.logo}>
-						<Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-					</span>
-				</a>
-			</footer>
 		</div>
 	);
 }
