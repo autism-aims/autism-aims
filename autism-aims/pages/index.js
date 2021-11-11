@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Gallery from "../components/gallery";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -36,12 +37,7 @@ export default function Home() {
 						society.
 					</p>
 				</div>
-				<div className="flex justify-center gap-2 mt-4">
-					<img src="https://via.placeholder.com/250.jpg?text=Placeholder+Gallery" />
-					<img src="https://via.placeholder.com/250.jpg?text=Placeholder+Gallery" />
-					<img src="https://via.placeholder.com/250.jpg?text=Placeholder+Gallery" />
-					<img src="https://via.placeholder.com/250.jpg?text=Placeholder+Gallery" />
-				</div>
+				<Gallery/>
 			</main>
 		</div>
 	);
