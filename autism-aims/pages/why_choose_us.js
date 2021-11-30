@@ -33,24 +33,24 @@ export default function Why_Choose_Us() {
 				<div>
 					<h2 className="text-lg">Testimonials</h2>
 					<div className="my-6 text-sm">
-						<div className="my-2 p-2 bg-gray-200 rounded-2xl">
-							<img className="w-20" src="/images/avataaars.svg" />
+						<div className="my-2 p-2 bg-gray-200 rounded-2xl flex flex-col items-center">
+							<img className="w-20 mb-2" src="/images/avataaars.svg" />
 							<p>
 								&quot;Oscar is truly remarkable, always prepared, and lending
 								ideas to improve a student&apos;s independence.&quot;
 							</p>
 							<p>Proud GN Parent</p>
 						</div>
-						<div className="my-2 p-2 bg-gray-200 rounded-2xl">
-							<img className="w-20" src="/images/avataaars (1).svg" />
+						<div className="my-2 p-2 bg-gray-200 rounded-2xl flex flex-col items-center">
+							<img className="w-20 mb-2" src="/images/avataaars (1).svg" />
 							<p>
 								&quot;I would start a petition to keep Oscar as our
 								therapist!&quot;
 							</p>
 							<p>Behavioral Consultant in Plainview</p>
 						</div>
-						<div className="my-2 p-2 bg-gray-200 rounded-2xl">
-							<img className="w-20" src="/images/avataaars (2).svg" />
+						<div className="my-2 p-2 bg-gray-200 rounded-2xl flex flex-col items-center">
+							<img className="w-20 mb-2" src="/images/avataaars (2).svg" />
 							<p>
 								&quot;Our son often stopped in the hallway to smile and wave at
 								peers and staff. You have been an essential part of our
@@ -59,16 +59,16 @@ export default function Why_Choose_Us() {
 							</p>
 							<p>Proud GN Parent</p>
 						</div>
-						<div className="my-2 p-2 bg-gray-200 rounded-2xl">
-							<img className="w-20" src="/images/avataaars (3).svg" />
+						<div className="my-2 p-2 bg-gray-200 rounded-2xl flex flex-col items-center">
+							<img className="w-20 mb-2" src="/images/avataaars (3).svg" />
 							<p>
 								&quot;Oscar is always calm and collected among many problems
 								behavior he encounters a day&quot;
 							</p>
 							<p>Proud GN Parent</p>
 						</div>
-						<div className="my-2 p-2 bg-gray-200 rounded-2xl">
-							<img className="w-20" src="/images/avataaars (4).svg" />
+						<div className="my-2 p-2 bg-gray-200 rounded-2xl flex flex-col items-center">
+							<img className="w-20 mb-2" src="/images/avataaars (4).svg" />
 							<p>
 								&quot;Oscar is a reliable therapist who works diligently to get
 								results while maintaining a client-first approach&quot;
