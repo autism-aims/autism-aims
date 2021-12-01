@@ -32,8 +32,8 @@ export default function Why_Choose_Us() {
 				</div>
 				<div>
 					<h2 className="text-lg">Testimonials</h2>
-					<div className="my-6 text-sm lg:grid lg:grid-cols-2 lg:p-10 md:grid md:grid-cols-2 md:gap-2 md:space-y-0">
-						<div className="my-2 p-4 bg-gray-200 rounded-md flex flex-col items-center lg:mx-4">
+					<div className="my-6 text-sm lg:grid lg:justify-items-center lg:grid-cols-2 lg:p-10 md:grid md:grid-cols-2 md:gap-2 md:space-y-0">
+						<div className="my-2 p-4 shadow-xl bg-indigo-900 text-white rounded-md flex flex-col items-center lg:mx-4 lg:w-96 md:my-0">
 							<img className="w-20 mb-2" src="/images/avataaars.svg" />
 							<p>
 								&quot;Oscar is truly remarkable, always prepared, and lending
@@ -41,15 +41,15 @@ export default function Why_Choose_Us() {
 							</p>
 							<p>Proud GN Parent</p>
 						</div>
-						<div className="my-2 p-4 bg-gray-200 rounded-md flex flex-col items-center lg:mx-4">
-							<img className="w-20 mb-2" src="/images/avataaars (1).svg" />
+						<div className="my-2 p-4 shadow-xl bg-indigo-900 text-white rounded-md flex flex-col items-center lg:mx-4 lg:w-96 md:my-0">
+							<img className="w-20 mb-2" src="/images/avataaars (3).svg" />
 							<p>
-								&quot;I would start a petition to keep Oscar as our
-								therapist!&quot;
+								&quot;Oscar is always calm and collected among many problems
+								behavior he encounters a day&quot;
 							</p>
-							<p>Behavioral Consultant in Plainview</p>
+							<p>Proud GN Parent</p>
 						</div>
-						<div className="my-2 p-4 bg-gray-200 rounded-md flex flex-col items-center lg:mx-4">
+						<div className="my-2 p-4 shadow-xl bg-indigo-900 text-white rounded-md flex flex-col items-center lg:mx-4 lg:w-96 md:my-0">
 							<img className="w-20 mb-2" src="/images/avataaars (2).svg" />
 							<p>
 								&quot;Our son often stopped in the hallway to smile and wave at
@@ -59,21 +59,21 @@ export default function Why_Choose_Us() {
 							</p>
 							<p>Proud GN Parent</p>
 						</div>
-						<div className="my-2 p-4 bg-gray-200 rounded-md flex flex-col items-center lg:mx-4">
-							<img className="w-20 mb-2" src="/images/avataaars (3).svg" />
-							<p>
-								&quot;Oscar is always calm and collected among many problems
-								behavior he encounters a day&quot;
-							</p>
-							<p>Proud GN Parent</p>
-						</div>
-						<div className="my-2 p-4 bg-gray-200 rounded-md flex flex-col items-center lg:mx-4">
+						<div className="my-2 p-4 shadow-xl bg-indigo-900 text-white rounded-md flex flex-col items-center lg:mx-4 lg:w-96 md:my-0">
 							<img className="w-20 mb-2" src="/images/avataaars (4).svg" />
 							<p>
 								&quot;Oscar is a reliable therapist who works diligently to get
 								results while maintaining a client-first approach&quot;
 							</p>
 							<p>BCBA in Port Washington School District</p>
+						</div>
+						<div className="my-2 p-4 shadow-xl bg-indigo-900 text-white rounded-md flex flex-col items-center lg:mx-4 lg:w-96 md:my-0">
+							<img className="w-20 mb-2" src="/images/avataaars (1).svg" />
+							<p>
+								&quot;I would start a petition to keep Oscar as our
+								therapist!&quot;
+							</p>
+							<p>Behavioral Consultant in Plainview</p>
 						</div>
 					</div>
 				</div>
