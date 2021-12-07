@@ -9,7 +9,7 @@ export default function Gallery() {
 	];
 
 	return (
-		<div className="container mx-auto space-y-2 lg:space-y-0 lg:gap-2 lg:grid lg:grid-cols-3 my-2 max-w-screen-xl">
+		<div className="container mx-auto space-y-2 lg:space-y-0 lg:gap-2 lg:grid lg:grid-cols-3 md:grid md:grid-cols-2 md:space-y-0 md:gap-2 my-2 max-w-screen-xl">
 			{imgs.map((pic) => {
 				return (
 					<div className="w-full shadow-md" key={pic}>

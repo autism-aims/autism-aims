@@ -17,11 +17,17 @@ export default function Home() {
 			</Head>
 
 			<main className="text-center">
-				<div>
-					<img src="https://via.placeholder.com/1920x450.jpg?text=Placeholder+Hero+Image" />
-					<h1 className="mt-4">Autism Aims</h1>
-					<h2>An Aim Rooted in Purpose, Advocacy and Results</h2>
+				<div className="flex flex-col items-center pt-4">
+					<img
+						className="w-1/2"
+						src="https://visitncsmokies.com/wp-content/uploads/2018/09/HERO-PLACEHOLDER.jpg"
+					/>
+					<h1 className="mt-4 font-bold text-2xl">Autism Aims</h1>
+					<h2 className="italic ">
+						An Aim Rooted in Purpose, Advocacy and Results
+					</h2>
 				</div>
+
 				<div className="flex justify-center">
 					<svg
 						viewBox="0 0 445.75 445.08"
@@ -72,8 +78,8 @@ export default function Home() {
 						</g>
 					</svg>
 				</div>
-				<div className="mt-4">
-					<p>
+				<div className="pt-4">
+					<p className="m-auto max-w-screen-sm">
 						At Autism Aims, we aim to extinguish problematic behaviors that may
 						impede the progress of a client’s social, educational, and
 						career-oriented goals and needs. Our staff is well versed in applied
@@ -85,7 +91,7 @@ export default function Home() {
 						society.
 					</p>
 				</div>
-				<Gallery/>
+				<Gallery />
 			</main>
 		</div>
 	);
