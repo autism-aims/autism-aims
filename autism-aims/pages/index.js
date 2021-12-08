@@ -5,7 +5,7 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
 	return (
-		<div className={styles.container}>
+		<div>
 			<Head>
 				<title>Autism Aims</title>
 				<meta
@@ -16,10 +16,10 @@ export default function Home() {
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 			</Head>
 
-			<main className="text-center">
-				<div className="flex flex-col items-center pt-4">
+			<header>
+				<div className="flex flex-col items-center">
 					<img
-						className="w-1/2"
+						className="w-full"
 						src="https://visitncsmokies.com/wp-content/uploads/2018/09/HERO-PLACEHOLDER.jpg"
 					/>
 					<h1 className="mt-4 font-bold text-2xl">Autism Aims</h1>
@@ -27,6 +27,8 @@ export default function Home() {
 						An Aim Rooted in Purpose, Advocacy and Results
 					</h2>
 				</div>
+			</header>
+			<main className="text-center px-8">
 
 				<div className="flex justify-center">
 					<svg
