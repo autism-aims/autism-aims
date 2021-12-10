@@ -10,17 +10,25 @@ export default function Navbar() {
 
 	return (
 		<nav className="bg-indigo-900 text-white font-semibold py-4 px-5 sm:px-7 md:px-12 flex justify-end border-b border-indigo-900">
-			<div className="hidden md:flex gap-x-11 justify-center">
-				<Link href="/">
-					<a>Home</a>
+			<motion.div
+				className="hidden md:flex gap-x-11 justify-center"
+				initial={{ opacity: 0, x: -100 }}
+				animate={{
+					opacity: 1,
+					x: 0,
+					transition: { ease: "easeInOut", duration: 1 },
+				}}
+			>
+				<Link href="/" passHref>
+					<a className="">Home</a>
 				</Link>
-				<Link href="/about">
+				<Link href="/about" passHref>
 					<a>About</a>
 				</Link>
-				<Link href="/why_choose_us">
+				<Link href="/why_choose_us" passHref>
 					<a>Why Choose Us</a>
 				</Link>
-			</div>
+			</motion.div>
 			<button
 				className="md:hidden text-2xl sm:text-3xl"
 				onClick={() => setOpen(!open)}
@@ -33,18 +41,18 @@ export default function Navbar() {
 					className="md:hidden flex flex-col justify-evenly bg-indigo-700 absolute top-14 inset-x-0 sm:mt-1 divide-y divide-indigo-900"
 					initial={{ opacity: 0 }}
 					animate={{
-						opacity: 1, 
+						opacity: 1,
 					}}
 				>
 					<Link href="/" passHref>
 						<motion.a
 							className="w-full py-5 text-center sm:py-6"
 							onClick={() => setOpen(false)}
-							initial={{ y: -20, opacity: 0}}
+							initial={{ y: -20, opacity: 0 }}
 							animate={{
 								y: 0,
-								opacity:1,
-								transition: { ease: "easeInOut"},
+								opacity: 1,
+								transition: { ease: "easeInOut" },
 							}}
 						>
 							Home
@@ -54,10 +62,10 @@ export default function Navbar() {
 						<motion.a
 							className="w-full py-5 text-center sm:py-6 "
 							onClick={() => setOpen(false)}
-							initial={{ y: -20, opactiy:0}}
+							initial={{ y: -20, opactiy: 0 }}
 							animate={{
 								y: 0,
-								opactiy:1,
+								opactiy: 1,
 								transition: { ease: "easeInOut" },
 							}}
 						>
@@ -68,11 +76,11 @@ export default function Navbar() {
 						<motion.a
 							className="w-full py-5 text-center sm:py-6 "
 							onClick={() => setOpen(false)}
-							initial={{ y: -20,opacity:0}}
+							initial={{ y: -20, opacity: 0 }}
 							animate={{
 								y: 0,
-								opacity:1,
-								transition: { ease: "easeInOut"},
+								opacity: 1,
+								transition: { ease: "easeInOut" },
 							}}
 						>
 							Why Choose Us
