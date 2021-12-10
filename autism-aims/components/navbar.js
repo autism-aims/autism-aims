@@ -3,6 +3,7 @@ import React from "react";
 import { IoMdMenu } from "react-icons/io";
 import { IoMdClose } from "react-icons/io";
 import { useState } from "react";
+import { motion } from "framer-motion";
 
 export default function Navbar() {
 	const [open, setOpen] = useState(false);
@@ -27,34 +28,58 @@ export default function Navbar() {
 				{open ? <IoMdClose /> : <IoMdMenu />}
 			</button>
 			{/* burger menu popout */}
-			{open ? (
-				<div className="md:hidden flex flex-col justify-evenly bg-indigo-700 absolute top-14 inset-x-0 sm:mt-1 divide-y divide-indigo-900">
-					<Link href="/">
-						<a
+			{open && (
+				<motion.div
+					className="md:hidden flex flex-col justify-evenly bg-indigo-700 absolute top-14 inset-x-0 sm:mt-1 divide-y divide-indigo-900"
+					initial={{ opacity: 0 }}
+					animate={{
+						opacity: 1, 
+					}}
+				>
+					<Link href="/" passHref>
+						<motion.a
 							className="w-full py-5 text-center sm:py-6"
 							onClick={() => setOpen(false)}
+							initial={{ y: -20, opacity: 0}}
+							animate={{
+								y: 0,
+								opacity:1,
+								transition: { ease: "easeInOut"},
+							}}
 						>
 							Home
-						</a>
+						</motion.a>
 					</Link>
-					<Link href="/about">
-						<a
+					<Link href="/about" passHref>
+						<motion.a
 							className="w-full py-5 text-center sm:py-6 "
 							onClick={() => setOpen(false)}
+							initial={{ y: -20, opactiy:0}}
+							animate={{
+								y: 0,
+								opactiy:1,
+								transition: { ease: "easeInOut" },
+							}}
 						>
 							About
-						</a>
+						</motion.a>
 					</Link>
-					<Link href="/why_choose_us">
-						<a
+					<Link href="/why_choose_us" passHref>
+						<motion.a
 							className="w-full py-5 text-center sm:py-6 "
 							onClick={() => setOpen(false)}
+							initial={{ y: -20,opacity:0}}
+							animate={{
+								y: 0,
+								opacity:1,
+								transition: { ease: "easeInOut"},
+							}}
 						>
 							Why Choose Us
-						</a>
+						</motion.a>
 					</Link>
-				</div>
-			) : null}
+				</motion.div>
+			)}
 		</nav>
 	);
 }
