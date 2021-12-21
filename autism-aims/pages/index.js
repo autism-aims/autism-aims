@@ -5,7 +5,7 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
 	return (
-		<div>
+		<main>
 			<Head>
 				<title>Autism Aims</title>
 				<meta
@@ -16,20 +16,22 @@ export default function Home() {
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 			</Head>
 
-			<header>
-				<div className="flex flex-col items-center">
-					<img
-						className="w-full"
-						src="https://visitncsmokies.com/wp-content/uploads/2018/09/HERO-PLACEHOLDER.jpg"
-					/>
-					<h1 className="mt-4 font-bold text-2xl">Autism Aims</h1>
-					<h2 className="italic ">
+			<header className="text-center">
+				<img
+					className="w-full"
+					src="https://visitncsmokies.com/wp-content/uploads/2018/09/HERO-PLACEHOLDER.jpg"
+				/>
+				<div>
+					<h1 className="font-extrabold text-4xl sm:text-5xl md:text-7xl">
+						Autism Aims
+					</h1>
+					<p className="italic font-semibold text-xl sm:text-2xl md:text-3xl">
 						An Aim Rooted in Purpose, Advocacy and Results
-					</h2>
+					</p>
 				</div>
 			</header>
-			<main className="text-center px-8">
 
+			<div className="px-5 m-auto max-w-screen-xl">
 				<div className="flex justify-center">
 					<svg
 						viewBox="0 0 445.75 445.08"
@@ -80,8 +82,8 @@ export default function Home() {
 						</g>
 					</svg>
 				</div>
-				<div className="pt-4">
-					<p className="m-auto max-w-screen-sm">
+				<div className="m-auto max-w-screen-sm md:text-lg">
+					<p>
 						At Autism Aims, we aim to extinguish problematic behaviors that may
 						impede the progress of a client’s social, educational, and
 						career-oriented goals and needs. Our staff is well versed in applied
@@ -94,7 +96,7 @@ export default function Home() {
 					</p>
 				</div>
 				<Gallery />
-			</main>
-		</div>
+			</div>
+		</main>
 	);
 }

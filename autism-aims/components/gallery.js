@@ -9,12 +9,15 @@ export default function Gallery() {
 	];
 
 	return (
-		<div className="container mx-auto space-y-2 lg:space-y-0 lg:gap-2 lg:grid lg:grid-cols-3 md:grid md:grid-cols-2 md:space-y-0 md:gap-2 my-2 max-w-screen-xl">
+		<div className="container mx-auto my-2 space-y-2 md:grid md:grid-cols-2 md:space-y-0 md:gap-2 lg:space-y-0 lg:gap-2 lg:grid lg:grid-cols-3 ">
 			{imgs.map((pic) => {
 				return (
-					<div className="w-full shadow-md" key={pic}>
-						<img className="rounded" src={pic} alt="stock image" />
-					</div>
+					<img
+						className="rounded shadow-md"
+						key={pic}
+						src={pic}
+						alt="stock image"
+					/>
 				);
 			})}
 		</div>
