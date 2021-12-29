@@ -25,13 +25,13 @@ export default function Home() {
 					<h1 className="font-extrabold text-4xl sm:text-5xl md:text-7xl">
 						Autism Aims
 					</h1>
-					<p className="italic font-semibold text-xl sm:text-2xl md:text-3xl">
+					<p className="italic font-bold text-xl sm:text-2xl md:text-3xl max-w-xs sm:max-w-2xl mx-auto">
 						An Aim Rooted in Purpose, Advocacy and Results
 					</p>
 				</div>
 			</header>
 
-			<div className="px-5 m-auto max-w-screen-xl">
+			<div className="px-5 m-auto max-w-screen-lg">
 				<div className="flex justify-center">
 					<svg
 						viewBox="0 0 445.75 445.08"
@@ -82,9 +82,20 @@ export default function Home() {
 						</g>
 					</svg>
 				</div>
-				<div className="m-auto max-w-screen-sm md:text-lg">
+				<div className="m-auto max-w-screen-md text-lg font-medium">
 					<p>
-						At Autism Aims, we aim to extinguish problematic behaviors that may
+						At Autism Aims, we provide Applied Behavior Analysis (ABA) for
+						individuals with Autism spectrum disorder (ASD). Our services are
+						centered around a client-first philosophy and Acceptance and
+						Commitment Therapy (ACT). Autism Aims incorporates both treatments
+						to instill autonomy and wellness while alleviating the stress and
+						concerns you may have about your child. We use evidence-based
+						behavior methods to provide the least invasive behavior plan for
+						your child&apos;s needs while also providing access to resources,
+						services, and opportunities for your child.
+					</p>
+					<p>
+						We aim to extinguish problematic behaviors that may
 						impede the progress of a client’s social, educational, and
 						career-oriented goals and needs. Our staff is well versed in applied
 						behavior analysis and will help create an individual’s behavior plan

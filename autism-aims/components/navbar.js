@@ -48,10 +48,10 @@ export default function Navbar() {
 						<motion.a
 							className="w-full py-5 text-center sm:py-6"
 							onClick={() => setOpen(false)}
-							initial={{ y: -20, opacity: 0 }}
+							initial={{ y: -20,}}
 							animate={{
 								y: 0,
-								opacity: 1,
+								
 								transition: { ease: "easeInOut" },
 							}}
 						>
@@ -62,10 +62,10 @@ export default function Navbar() {
 						<motion.a
 							className="w-full py-5 text-center sm:py-6 "
 							onClick={() => setOpen(false)}
-							initial={{ y: -20, opactiy: 0 }}
+							initial={{ y: -20, }}
 							animate={{
 								y: 0,
-								opactiy: 1,
+								
 								transition: { ease: "easeInOut" },
 							}}
 						>
@@ -76,10 +76,10 @@ export default function Navbar() {
 						<motion.a
 							className="w-full py-5 text-center sm:py-6 "
 							onClick={() => setOpen(false)}
-							initial={{ y: -20, opacity: 0 }}
+							initial={{ y: -20, }}
 							animate={{
 								y: 0,
-								opacity: 1,
+								
 								transition: { ease: "easeInOut" },
 							}}
 						>
