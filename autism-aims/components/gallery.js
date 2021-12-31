@@ -9,7 +9,7 @@ export default function Gallery() {
 	];
 
 	return (
-		<div className="container mx-auto my-2 space-y-2 md:grid md:grid-cols-2 md:space-y-0 md:gap-2 lg:space-y-0 lg:gap-2 lg:grid lg:grid-cols-3 ">
+		<div className="container max-w-screen-lg mx-auto my-2 space-y-2 md:grid md:grid-cols-2 md:space-y-0 md:gap-2 lg:space-y-0 lg:gap-2 lg:grid lg:grid-cols-3 ">
 			{imgs.map((pic) => {
 				return (
 					<img
