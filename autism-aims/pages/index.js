@@ -82,7 +82,12 @@ export default function Home() {
 						</g>
 					</svg>
 				</div> */}
+
+				{/* STYLE 1 OG */}
 				<div className="text-lg font-medium my-20">
+					<h1 className="mx-auto text-3xl font-bold text-red-600 max-w-sm">
+						STYLE 1
+					</h1>
 					<div className="max-w-screen-lg grid grid-cols-2 items-center mx-auto shadow">
 						<Image
 							src="/images/paint.jpg"
@@ -145,6 +150,88 @@ export default function Home() {
 							className=""
 						></Image>
 						<p className="order-first px-12">
+							Autism Aims works to dismantle stigma and barriers to ensure our
+							clients build a strong sense of self-esteem, identity, dignity,
+							and independence and use their skills and strengths as
+							contributing and valuable members of society.
+						</p>
+					</div>
+				</div>
+
+				{/* STYLE 2 */}
+				<div className="text-lg font-medium py-28 flex flex-col gap-24 bg-gray-100">
+					<h1 className="mx-auto text-3xl font-bold text-red-600 max-w-sm">
+						STYLE 2
+					</h1>
+					<div className="max-w-screen-lg grid grid-cols-3 items-center mx-auto shadow bg-white">
+						<Image
+							src="/images/paint.jpg"
+							height="350"
+							alt=""
+							width="400"
+							objectFit="cover"
+							className=""
+						></Image>
+						<p className="px-10 ml-6 col-span-2">
+							At Autism Aims, we provide Applied Behavior Analysis (ABA) for
+							individuals with Autism spectrum disorder (ASD). Our services are
+							centered around a client-first philosophy and Acceptance and
+							Commitment Therapy (ACT). Autism Aims incorporates both treatments
+							to instill autonomy and wellness while alleviating the stress and
+							concerns you may have about your child.
+						</p>
+					</div>
+					<div className="max-w-screen-lg grid grid-cols-3 items-center mx-auto shadow bg-white">
+						<Image
+							src="/images/blocks-solo.jpg"
+							height="350"
+							alt=""
+							width="400"
+							objectFit="cover"
+							className=""
+						></Image>
+						<p className="order-first px-16 col-span-2">
+							We use evidence-based behavior methods to provide the least
+							invasive behavior plan for your child&apos;s needs while also
+							providing access to resources, services, and opportunities for
+							your child.
+						</p>
+					</div>
+				</div>
+
+				{/* STYLE 3 */}
+				<div className="text-lg font-medium py-28 flex flex-col gap-24">
+					<h1 className="mx-auto text-3xl font-bold text-red-600 max-w-sm">
+						STYLE 3
+					</h1>
+					<div className="max-w-screen-lg grid grid-cols-2 items-center mx-auto ">
+						<Image
+							src="/images/classroom2.jpg"
+							height="400"
+							alt=""
+							width="400"
+							objectFit="cover"
+							objectPosition="top"
+							className=""
+						></Image>
+						<p className="pl-20">
+							We aim to extinguish problematic behaviors that may impede the
+							progress of a client&apos;s social, educational, and
+							career-oriented goals and needs. Our staff is well versed in
+							applied behavior analysis and will help create an
+							individual&apos;s behavior plan specific to their goals and needs.
+						</p>
+					</div>
+					<div className="max-w-screen-lg grid grid-cols-2 items-center mx-auto ">
+						<Image
+							src="/images/graduation.jpg"
+							height="400"
+							alt=""
+							width="400"
+							objectFit=""
+							className=""
+						></Image>
+						<p className="order-first pr-20">
 							Autism Aims works to dismantle stigma and barriers to ensure our
 							clients build a strong sense of self-esteem, identity, dignity,
 							and independence and use their skills and strengths as
